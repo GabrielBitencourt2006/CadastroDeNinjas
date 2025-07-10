@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 public class NinjaController {
 
     @GetMapping("/boasvindas")
-
     public String boasVindas() {
          return "Ola mundo";
     }
