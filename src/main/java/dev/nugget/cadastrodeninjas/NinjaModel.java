@@ -6,8 +6,8 @@ import jakarta.persistence.*;
 @Table(name = "tb_cadastro_de_ninjas")
 public class NinjaModel {
 
-   @Id
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String nome;
     String email;
