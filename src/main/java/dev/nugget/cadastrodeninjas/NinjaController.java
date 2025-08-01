@@ -8,6 +8,6 @@ public class NinjaController {
 
     @GetMapping("/boasvindas")
     public String boasVindas() {
-         return "Ola mundo";
+         return "Nebros";
     }
 }
